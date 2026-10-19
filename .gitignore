@@ -1,0 +1,18 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+data/*.db
+gym_system.log
+analytics/generated/*.png
+!analytics/generated/.gitkeep
+.pytest_cache/
+.DS_Store
+# Ignore all database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore local environment configuration
+.env.*
