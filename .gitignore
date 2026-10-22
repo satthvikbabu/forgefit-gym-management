@@ -16,3 +16,4 @@ analytics/generated/*.png
 
 # Ignore local environment configuration
 .env.*
+!.env.example
